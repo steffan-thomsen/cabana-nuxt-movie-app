@@ -30,6 +30,10 @@ NUXT_PUBLIC_IMG_BASE_URL=https://image.tmdb.org/t/p/w500
 Start the development server on [http://localhost:3000](http://localhost:3000)
 
 ```bash
+# yarn
+yarn dev
+
+# npm 
 npm run dev
 
 ```
