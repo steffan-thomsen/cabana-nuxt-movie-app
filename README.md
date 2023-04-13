@@ -1,10 +1,8 @@
-# Nuxt 3 Minimal Starter
+# cabana-nuxt-movie-app
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt Movie App
 
 ## Setup
-
-Make sure to install the dependencies:
 
 ```bash
 # yarn
@@ -13,30 +11,28 @@ yarn install
 # npm
 npm install
 
-# pnpm
-pnpm install
 ```
 
-## Development Server
+## Add .env file
 
-Start the development server on `http://localhost:3000`
+Add a `.env` file at the `root`-level of you application and add:
 
 ```bash
+NUXT_API_KEY= Your API-key from https://www.themoviedb.org
+NUXT_API_BASE_URL=https://api.themoviedb.org/3
+NUXT_PUBLIC_IMG_BASE_URL=https://image.tmdb.org/t/p/w500
+
+```
+
+## Development server
+
+Start the development server on [http://localhost:3000](http://localhost:3000)
+
+```bash
+# yarn
+yarn dev
+
+# npm
 npm run dev
+
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
